@@ -1,5 +1,5 @@
 {
-    "name": "ab-uikit",
+    "name": "uikit",
     "version": "1.0.24",
     "main": "lib/index.js",
     "dependencies": {
