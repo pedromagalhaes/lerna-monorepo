@@ -2,10 +2,6 @@
 
 > A Monorepo with multiple packages and a shared build, test, and release process.
 
-View example ➡️ https://storybook-monorepo.now.sh/
-
-![image](https://user-images.githubusercontent.com/9113740/71946241-d9f43a00-318e-11ea-80c4-72c483b88325.png)
-
 -   🐉 [Lerna](https://lernajs.io/)  - The Monorepo manager
 -   📦 [Yarn Workspaces](https://yarnpkg.com/lang/en/docs/workspaces/)  -  Sane multi-package management
 -   🚀 [React](https://reactjs.org/)  -  JavaScript library for user interfaces
