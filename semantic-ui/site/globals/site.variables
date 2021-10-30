@@ -1,0 +1,98 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+/*-------------------
+       Fonts
+--------------------*/
+
+@fontName: 'Art Basel Text';
+@regular: normal;
+@bold: bold;
+
+@mchHeadlineFontName: 'Art Basel Headline';
+
+/*--------------
+  Page Heading
+---------------*/
+@h1: 30px;
+@h2: 26px;
+@h3: 24px;
+@h4: 20px;
+@h5: 18px;
+
+/*-------------------
+       Colors
+--------------------*/
+
+/*---- Primary Colors ----*/
+@mchBlack: #1d2327;
+@mchWhite: #ffffff;
+
+/*---- Secondary Colors ----*/
+@mchGrey100: #f7f7f7;
+@mchGrey200: #f0f2f5;
+@mchGrey300: #babfc4;
+@mchGrey400: #757575;
+@mchGrey500: #444749;
+
+/*---- Supporting Colors ----*/
+@mchTextRed: #c9012f;
+@mchRed: #ff003b;
+@mchTextOrange: #bf8519;
+@mchOrange: #f19d00;
+@mchTextGreen: #018661;
+@mchGreen: #019f53;
+@mchError: @mchRed;
+@mchWarning: @mchOrange;
+
+/*---- Extended Palette Colors ----*/
+@mchSubBrandBasel: #00a0cf;
+@mchSubBrandMiami: #00c18b;
+@mchSubBrandHongKong: #e0004d;
+@mchSubBrandCities: #fa4616;
+
+/*---- Sectors Colors ----*/
+@mchFilm: #f7dce9;
+@mchParcourPublic: #cddff2;
+@mchUnlimitedAndEncountersAndMeridians: #dff0cb;
+@mchDiscoveriesAndStatementsAndPositions: #d2d3ec;
+@mchGalleries: #eaeaea;
+@mchFeatureNova: #d8eeeb;
+@mchEdition: #fff7bf;
+@mchKabinett: #fcdfaa;
+@mchInsightsSurvey: #fcd5d7;
+@mchDialogues: #dcdcdc;
+
+/*---- Opacity ----*/
+@mchTileOverlay: rgba(29, 35, 39, 0.3);
+@mchTileHover: rgba(29, 35, 39, 0.05);
+
+/*---- Semantic overrides ----*/
+@primaryColor: @mchBlack;
+@secondaryColor: @mchWhite;
+@transparent: #ffffff00;
+@pageBackground: @mchWhite;
+@red: @mchRed;
+@orange: @mchOrange;
+@green: @mchGreen;
+@grey: @mchGrey400;
+@black: @mchBlack;
+@redTextColor: @mchTextRed;
+@orangeTextColor: @mchTextOrange;
+@greenTextColor: @mchTextGreen;
+
+/*---- Shadows ----*/
+@lightShadow: 0px 4px 16px 0px rgba(@mchBlack, 0.06);
+@mediumShadow: 0px 4px 16px 0px rgba(@mchBlack, 0.12);
+@darkShadow: 0px 4px 16px 0px rgba(@mchBlack, 0.18);
+
+/*-------------------
+     Breakpoints
+--------------------*/
+@extraSmallMobileBreakpoint: 0px; /* XS */
+@mobileBreakpoint: 413px; /* SM */
+@tabletBreakpoint: 768px; /* MD */
+@computerBreakpoint: 1024px; /* LG */
+@largeMonitorBreakpoint: 1280px; /* XL */
+@widescreenMonitorBreakpoint: 1536px; /* XXL */
