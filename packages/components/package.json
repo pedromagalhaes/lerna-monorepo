@@ -1,5 +1,5 @@
 {
-    "name": "uikit",
+    "name": "ui-kit",
     "version": "1.0.24",
     "main": "lib/index.js",
     "dependencies": {
